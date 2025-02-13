@@ -4,7 +4,7 @@ Resources:
     Type: AWS::S3::Bucket
     Description: Crear Amazon S3 bucket usando CloudFormation
     Properties:
-      BucketName: YOUR-BUCKET-NAME
+      BucketName: mibucketghandy
       BucketEncryption: 
         ServerSideEncryptionConfiguration: 
           - ServerSideEncryptionByDefault:
